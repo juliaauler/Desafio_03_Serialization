@@ -11,6 +11,7 @@ public class SaveScript : MonoBehaviour{
 
     void Start(){
         gameData = GetComponent<GameData>();
+        savePath = Application.dataPath + "/Resources/Saves/SaveGame.json";
     }
 
     public void SaveData(){
